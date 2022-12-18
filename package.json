@@ -1,0 +1,29 @@
+{
+  "name": "jsbe-kurs-ilmn",
+  "version": "1.0.0",
+  "description": "Simpel qrapghQl server som visar 4 olika författare och några av deras mest populära böcker.",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiimman/JSBE-kurs-ilmn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kiimman/JSBE-kurs-ilmn/issues"
+  },
+  "homepage": "https://github.com/kiimman/JSBE-kurs-ilmn#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "keywords": []
+}
